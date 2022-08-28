@@ -11,28 +11,47 @@
 <body>
     <main>
         <div class="sector">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
-
+            <div class="intro">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p id="introSec">You <em>know</em> you want to.</p>
+            </div>
             <h1>Let's do this!</h1>
             <form>
-                <label for="fname">FIRST NAME</label><br>
-                <input type="text" id="fname" name="fname" required><br>
+                <div class="grid">
+                <div class="row">
+                    <div class="col">
+                        <label for="fname">FIRST NAME</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                    </div>
+                    <div class="col">
+                        <label for="lname">LAST NAME</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
 
-                <label for="lname">LAST NAME</label><br>
-                <input type="text" id="lname" name="lname" required><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div class="col">
+                        <label for="pno">PHONE NUMBER</label><br>
+                        <input type="number" id="pno" name="pno"><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="pass">PASSWORD</label><br>
+                        <input type="password" id="pass" name="pass" required><br>
 
-                <label for="email">EMAIL</label><br>
-                <input type="email" id="email" name="email" required><br>
-
-                <label for="pno">PHONE NUMBER</label><br>
-                <input type="number" id="pno" name="pno"><br>
-
-                <label for="pass">PASSWORD</label><br>
-                <input type="password" id="pass" name="pass" required><br>
-
-                <label for="cpass">CONFIRM PASSWORD</label><br>
-                <input type="password" id="cpass" name="cpass" required><br>
+                    </div>
+                    <div class="col">
+                        <label for="cpass">CONFIRM PASSWORD</label><br>
+                        <input type="password" id="cpass" name="cpass" required><br>
+                    </div>
+                </div>
+                </div>
                 <hr>
                 <input type="submit" value="Create Account">
             </form>
