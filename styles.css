@@ -62,11 +62,16 @@ main img {
     background-color: #32004f;
     border-radius: 10px;
     padding: 25px 35px;
+    margin-bottom: 15px;
 }
 
 .sector .grid .row {
     display: flex;
     justify-content: space-between;
+}
+
+.sector .grid .row-last {
+    margin-bottom: -20px;
 }
 
 .sector .grid .col {
@@ -80,6 +85,52 @@ main img {
 
 .sector .grid .col label {
     margin-bottom: -10px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+}
+
+.sector .grid .col input {
+    width: 95%;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+}
+
+.sector #reg {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #32004f solid 2px;
+    color: white;
+    background-color: #190028;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.sector #reg:hover {
+    border: #32004f solid 2px;
+    background-color: #32004f;
+}
+
+.sector #reg:active {
+    background-color: #52007a;
+    border: #52007a solid 2px;
+}
+
+#login {
+    color: white;
+    text-align: center;
+}
+
+#login a {
+    color: #52007a;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
