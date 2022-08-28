@@ -133,6 +133,26 @@ main img {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 960px) {
+    img {
+        content: url("bg.png");
+        min-width: 100%;
+        height: auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .sector {
+        width: 80%;
+    }
+}
 
 
 
